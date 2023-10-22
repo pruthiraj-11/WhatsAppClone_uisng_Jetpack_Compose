@@ -43,10 +43,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 private fun SplashView() {
-   Center (
-       modifier = Modifier.fillMaxSize()
-   ) {
-        Image(painter = painterResource(id = R.drawable.ic_whatsapp), contentDescription = null,
+   Center (modifier = Modifier.fillMaxSize()) {
+        Image(painter = painterResource(id = R.drawable.ic_whatsapp),
+            contentDescription = null,
             modifier = Modifier.size(100.dp))
    }
 }
